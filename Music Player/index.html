@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/a4eea408cf.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="Media/Until i found you.jpeg" class="song-img">
+            <h1>Until I Found you</h1>
+            <p>Stephen Sanchez</p>
+            <audio id="song">
+                <source src="Media/Until I found you song.unknown" type="audio/mpeg" >
+            </audio>
+            <input type="range" value="0" id="progress" >
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+        <div class="container1">
+            <p>Lyrics aren't synced with the song</p>
+        </br>
+            <p>Georgia, wrap me up in all your</p>
+            <p>I want you in my arms</p>
+            <p>Oh, let me hold you</p>
+            <p>I'll never let you go again like I did</p>
+            <p>Oh, I used to say</p>
+        </br>
+            <p>I would never fall in love again until I found her</p>
+            <p>I said, "I would never fall unless it's you I fall into"</p>
+            <p>I was lost within the darkness, but then I found her</p>
+            <p>I found you</p>
+        </br>
+            <p>Georgia, pulled me in, I asked to</p>
+            <p>Love her once again</p>
+            <p>You fell, I caught you</p>
+            <p>I'll never let you go again like I did</p>
+            <p>Oh, I used to say</p>
+        </br>
+            <p>I would never fall in love again until I found her</p>
+            <p>I said, "I would never fall unless it's you I fall into"</p>
+            <p>I was lost within the darkness, but then I found her</p>
+            <p>I found you</p>
+        </br>
+            <p>I would never fall in love again until I found her</p>
+            <p>I said, "I would never fall unless it's you I fall into"</p>
+            <p>I was lost within the darkness, but then I found her</p>
+            <p>I found you</p>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+</html>
